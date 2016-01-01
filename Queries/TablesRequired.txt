@@ -1,0 +1,18 @@
+tblSitcom - will have the unique ID for each sitcom.
+    sitcomID - Unique ID
+    sitcomeName - Name of the sitcom
+    complete - Default 0. which means there are still unwatched episodes. When all the episodes are watched, the value will be 1.
+
+
+tblMaxSeason - Mentions the maximum season for a sitcom.
+    id - A unique ID
+    sitcomID - refers to sitcomID in tblSitcom.
+    maxSeason - refers to maximum season.
+    complete - same as complete in tblSitcom.
+
+tblEpisodeLink - Mentions the link for the sitcom
+    id - unique id
+    sitcomID - refers to sitcomID in tblSitcom.
+    season - refers to the season
+    link - Link of the episode
+
